@@ -39,15 +39,17 @@
             // 
             // textBox1
             // 
+            textBox1.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             textBox1.Location = new Point(36, 40);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(299, 379);
+            textBox1.Size = new Size(299, 304);
             textBox1.TabIndex = 0;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
+            button1.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(355, 40);
             button1.Name = "button1";
             button1.Size = new Size(123, 49);
@@ -58,6 +60,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Location = new Point(355, 105);
             button2.Name = "button2";
             button2.Size = new Size(123, 50);
@@ -68,6 +71,7 @@
             // 
             // button3
             // 
+            button3.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button3.Location = new Point(490, 40);
             button3.Name = "button3";
             button3.Size = new Size(47, 263);
@@ -78,14 +82,16 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(385, 374);
+            textBox2.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox2.Location = new Point(355, 312);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(152, 23);
+            textBox2.Size = new Size(182, 33);
             textBox2.TabIndex = 4;
             // 
             // button4
             // 
-            button4.Location = new Point(355, 178);
+            button4.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.Location = new Point(355, 175);
             button4.Name = "button4";
             button4.Size = new Size(123, 50);
             button4.TabIndex = 5;
@@ -95,6 +101,7 @@
             // 
             // button5
             // 
+            button5.Font = new Font("微軟正黑體", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button5.Location = new Point(355, 248);
             button5.Name = "button5";
             button5.Size = new Size(123, 55);
@@ -107,7 +114,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(565, 426);
+            ClientSize = new Size(565, 367);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(textBox2);
@@ -116,7 +123,7 @@
             Controls.Add(button1);
             Controls.Add(textBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "ktv排行機";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

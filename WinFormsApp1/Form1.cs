@@ -53,9 +53,6 @@ namespace WinFormsApp1
             {
                 //$設定格式
                 textBox1.Text += $"{no[i]}\t{singer[i]}\t{song[i]}" + Environment.NewLine;
-
-                //textBox1.Text += $"{no[i]}\t{singer[i]}\t{song[i]}" + Environment.NewLine;
-                //textBox1.Text = textBox1.Text+ $"{no[i]}\t{singer[i]}\t{song[i]}" + Environment.NewLine;
             }
             textBox1.Text += Environment.NewLine;
         }
